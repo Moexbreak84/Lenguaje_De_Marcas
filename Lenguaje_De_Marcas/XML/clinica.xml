@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinica>
+    <pacientes>
+        <paciente cod_paciente="">
+            <nombre></nombre>
+            <apellidos></apellidos>
+            <dni></dni>
+            <direccion></direccion>
+            <poblacion></poblacion>
+            <provincia></provincia>
+            <cod_postal></cod_postal>
+            <telefono></telefono>
+            <fec_nacimiento></fec_nacimiento>
+        </paciente>
+    </pacientes>
+    <medicos>
+        <medico cod_medico="">
+            <nombre></nombre>
+            <apellidos></apellidos>
+            <dni></dni>
+            <especialidad></especialidad>
+            <consulta></consulta>
+        </medico>
+    </medicos>
+    <citas>
+        <cita cod_paciente="" cod_medico="" fecha="">
+            <hora></hora>
+            <especialidad></especialidad>
+        </cita>
+    </citas>
+</clinica>
