@@ -8,3 +8,15 @@
 }
 
 /*ejercicio 2*/
+#p1{
+    @font-face {
+        font-family: italic;
+        src: url();
+    }
+}
+#P2{
+    @font-face {
+        font-family: arial ;
+        src: url();
+    }
+}
