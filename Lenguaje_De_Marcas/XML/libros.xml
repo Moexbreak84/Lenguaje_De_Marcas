@@ -2,6 +2,33 @@
 <!DOCTYPE libros>
 <libros>
     <libro isbn="">
+        <titulo>EL ABOGADO DEL DIABLO</titulo>
+        <autores>
+            <autor></autor>
+        </autores>
+        <editorial></editorial>
+        <edicion></edicion>
+        <paginas></paginas>
+    </libro>
+    <libro isbn="">
+        <titulo></titulo>
+        <autores>
+            <autor></autor>
+        </autores>
+        <editorial></editorial>
+        <edicion></edicion>
+        <paginas></paginas>
+    </libro>
+    <libro isbn="">
+        <titulo></titulo>
+        <autores>
+            <autor></autor>
+        </autores>
+        <editorial></editorial>
+        <edicion></edicion>
+        <paginas></paginas>
+    </libro>
+     <libro isbn="">
         <titulo></titulo>
         <autores>
             <autor></autor>
