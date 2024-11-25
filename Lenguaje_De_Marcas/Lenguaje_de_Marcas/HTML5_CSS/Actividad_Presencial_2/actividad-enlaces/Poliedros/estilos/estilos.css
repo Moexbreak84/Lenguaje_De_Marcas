@@ -1,0 +1,17 @@
+/*aqui empezamos la configuracion de los titulos nivel 1*/
+h1 {
+    background-color: blue;
+    color: yellow;
+    text-align: center;
+    font-size: 46px;
+}
+
+/*aqui la configuracion de los contenedores div de imagenes*/
+div {
+    text-align: center;
+}
+
+/*aqui cofiguramos el margen entre imagenes*/
+img {
+    margin: 20px;
+}
