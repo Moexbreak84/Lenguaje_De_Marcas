@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE agencia_turismo>
+<agencia_turismo>
+    <propietarios>
+        <propietario NIF = "">
+            <nombre></nombre>
+            <apellidos></apellidos>
+            <direccion>
+                <tipo_via></tipo_via>
+                <nombre_via></nombre_via>
+                <numero></numero>
+                <portal></portal>
+                <piso></piso>
+                <cod_postal></cod_postal>
+                <pueblo></pueblo>
+                <provincia></provincia>
+                <!-- no se si hay que poner mas cosas en direccion nunca he vivido en un piso en mi casa ya me sobran cosas-->
+            </direccion>
+            <telefono></telefono>
+        </propietario>
+    </propietarios>
+    <casas_rurales>
+        <casa_rural cod = "" pro-NIF = "">
+            <nombre></nombre>
+            <direccion>
+                <tipo_via></tipo_via>
+                <nombre_via></nombre_via>
+                <numero></numero>
+                <cod_postal></cod_postal>
+                <pueblo></pueblo>
+                <provincia></provincia>
+            </direccion>
+            <capacidad></capacidad>
+            <p_dia_sin_IVA></p_dia_sin_IVA>
+            <carasteristicas>
+                <piscina></piscina>
+                <cocina></cocina>
+                <baño></baño>
+                <aire_acondicionado></aire_acondicionado>
+                <chimenea></chimenea>
+                <garage></garage>
+            </carasteristicas>
+        </casa_rural>
+    </casas_rurales>
+</agencia_turismo>
