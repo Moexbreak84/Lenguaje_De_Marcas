@@ -2,7 +2,7 @@
 <!DOCTYPE agencia_turismo>
 <agencia_turismo>
     <propietarios>
-        <propietario NIF = "">
+        <propietario NIF="">
             <nombre></nombre>
             <apellidos></apellidos>
             <direccion>
@@ -20,7 +20,7 @@
         </propietario>
     </propietarios>
     <casas_rurales>
-        <casa_rural cod = "" pro-NIF = "">
+        <casa_rural cod="" pro-NIF="">
             <nombre></nombre>
             <direccion>
                 <tipo_via></tipo_via>
