@@ -1,0 +1,89 @@
+/* Los siguientes cuatro colores constituyen una paleta de colores. Se pueden utilizar no solamente como colores de caracteres,
+ si no también como colores de fondo a través de la propiedad background-color.  */ 
+/* Una paleta de colores se puede conseguir mediante un generador de paleta de colores como por ejemplo https://mybrandnewlogo.com/es/generador-de-paleta-de-colores*/
+/* Las siguientes cuatro reglas de estilo son selectorea de clase. Se aplicarían a los elementos de la página web que tienen el valor del atributo class igual a color1, cloro2, color3 o color4 */
+.color1 {color: #E5F5A3;}
+.color2 {color: #B6CC66;}
+.color3 {color: #8fa437;}
+.color4 {color: #677B14;}
+.color5 {color: #425200;}
+.color6 {color: #AD74A8;}
+.color7 {color: #90488A;}
+.color8 {color: #74276D;}
+.color9 {color: #570E51;}
+.color10 {color: #3A0035;}
+
+/* Esta regla de estilo es un selector de tipo, se aplica al elemento body. Afecta a todos los elementos de la página web */
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Estilo de header. Es la cabecera de la página web. Podemos colocar también el logo que identifique a nuestro sitio web */
+  /* Es un selector de tipo, esta regla de estilo se aplica al elemento header  */
+  header {
+    background-color: #570E51;
+    padding: 35px;
+    text-align: center;
+    font-size: 30px;
+    color: #AD74A8;
+  }
+  
+  /* Estilo del elemento nav. Es la zona donde vamos a colocar el menú de nuestro sitio web */
+  /* Es un selector de tipo, esta regla se estilo se aplica al elemento nav  */
+  nav {
+    background-color: #677B14;
+    padding: 20px 20px 20px 0px;
+  }
+  
+  /* Estilo del elemento lista dentro del menu */
+  nav ul {
+    list-style-type: none;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    margin: 0px;
+  }
+
+  /* Estilo de cada elemento de la lista que está dentro del elemento nav. La propiedad CSS float con valor left coloca un elemento li, de forma flotante al lado izquierdo de su contenedor ul. Cada elemento li es de tipo bloque y ocupa por defecto una línea. Entonces conseguimos que se muestren en la misma línea uno después del otro  */
+  nav ul li {
+    float: left; 
+    font: bold 14px verdana, sans-serif; 
+  }
+
+  /* Con la propiedad text-decoration, conseguimos que cada hiperenlace de la lista se muestre sin el subrayado típico */
+  nav ul li a {
+    color: #E5F5A3;
+    text-align: center;
+    padding: 20px; 
+    text-decoration: none;
+  }
+
+  /* Utilizamos la pseudo clase hover para aplicar esta regla de estilo cuando se coloque el puntero del ratón encima del hiperenlace */
+  nav ul li a:hover{
+      background-color: #570E51;
+      color:yellowgreen;
+
+  }
+  
+  /* Estilo para la sección principal de contenido de la página web */
+  /* Es un selector de tipo, esta regla se estilo se aplica al elemento main  */
+  main {
+    padding: 20px;
+    background-color:  #B6CC66;
+    color:#425200;
+  }
+  
+  /* Estilo para la sección pie de la página web */
+  /* Es un selector de tipo, esta regla se estilo se aplica al elemento footer  */
+  footer {
+    background-color: #570E51;
+    padding: 30px;
+    text-align: center;
+    font-size: 20px;
+    color:#AD74A8;
+  }
+
+  .container{
+    margin: 30px auto;
+    width: 80%;
+  }
+  
