@@ -16,6 +16,7 @@
 /* Esta regla de estilo es un selector de tipo, se aplica al elemento body. Afecta a todos los elementos de la página web */
   body {
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../imagenes/fondo_lenguajes.jpg);
   }
   
   /* Estilo de header. Es la cabecera de la página web. Podemos colocar también el logo que identifique a nuestro sitio web */
@@ -32,13 +33,13 @@
   /* Es un selector de tipo, esta regla se estilo se aplica al elemento nav  */
   nav {
     background-color: #677B14;
-    padding: 20px 20px 20px 0px;
+    padding: 30px 30px 30px 30p;
   }
   
   /* Estilo del elemento lista dentro del menu */
   nav ul {
     list-style-type: none;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     padding-left: 0px;
     margin: 0px;
   }
