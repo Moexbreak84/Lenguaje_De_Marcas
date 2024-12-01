@@ -33,21 +33,24 @@
   /* Es un selector de tipo, esta regla se estilo se aplica al elemento nav  */
   nav {
     background-color: #677B14;
-    padding: 30px 30px 30px 30p;
+    padding: 50px 50px 50px 50px;
+   
   }
   
   /* Estilo del elemento lista dentro del menu */
   nav ul {
     list-style-type: none;
     padding-bottom: 40px;
-    padding-left: 0px;
-    margin: 0px;
+    padding-left: 15px;
+    margin: 15px;
+    
   }
 
   /* Estilo de cada elemento de la lista que está dentro del elemento nav. La propiedad CSS float con valor left coloca un elemento li, de forma flotante al lado izquierdo de su contenedor ul. Cada elemento li es de tipo bloque y ocupa por defecto una línea. Entonces conseguimos que se muestren en la misma línea uno después del otro  */
   nav ul li {
     float: left; 
     font: bold 14px verdana, sans-serif; 
+    margin-bottom: 50px;
   }
 
   /* Con la propiedad text-decoration, conseguimos que cada hiperenlace de la lista se muestre sin el subrayado típico */
@@ -87,4 +90,20 @@
     margin: 30px auto;
     width: 80%;
   }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
   
