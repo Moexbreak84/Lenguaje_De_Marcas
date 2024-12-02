@@ -50,7 +50,7 @@
   nav ul li {
     float: left; 
     font: bold 14px verdana, sans-serif; 
-    margin-bottom: 50px;
+    margin-bottom: 40px;
   }
 
   /* Con la propiedad text-decoration, conseguimos que cada hiperenlace de la lista se muestre sin el subrayado típico */
@@ -106,4 +106,4 @@ td {
 th {
     background-color: #f2f2f2;
 }
-  
+
