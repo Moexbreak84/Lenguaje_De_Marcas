@@ -2,31 +2,46 @@
  si no también como colores de fondo a través de la propiedad background-color.  */ 
 /* Una paleta de colores se puede conseguir mediante un generador de paleta de colores como por ejemplo https://mybrandnewlogo.com/es/generador-de-paleta-de-colores*/
 /* Las siguientes cuatro reglas de estilo son selectorea de clase. Se aplicarían a los elementos de la página web que tienen el valor del atributo class igual a color1, cloro2, color3 o color4 */
-.color1 {color: #E5F5A3;}
-.color2 {color: #B6CC66;}
-.color3 {color: #8fa437;}
-.color4 {color: #677B14;}
-.color5 {color: #425200;}
-.color6 {color: #AD74A8;}
-.color7 {color: #90488A;}
-.color8 {color: #74276D;}
-.color9 {color: #570E51;}
-.color10 {color: #3A0035;}
+.color1 {color: #e0e6f6;}
+.color2 {color: #ffe7f4;}
+.color3 {color: #103e55;}
+.color4 {color: #0c761b;}
+.color5 {color: #5bab00;}
+.color6 {color: #114437;}
+.color7 {color: #0c6445;}
+.color8 {color: #3f8e56;}
+.color9 {color: #86c868;}
+.color10 {color: #ecff85;}
 
 /* Esta regla de estilo es un selector de tipo, se aplica al elemento body. Afecta a todos los elementos de la página web */
   body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: url(../imagenes/fondo_lenguajes.jpg);
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(../imagenes/fondo_Tablas.jpg);
   }
   
   /* Estilo de header. Es la cabecera de la página web. Podemos colocar también el logo que identifique a nuestro sitio web */
   /* Es un selector de tipo, esta regla de estilo se aplica al elemento header  */
   header {
-    background-color: #570E51;
+    background-color: #103e55;
     padding: 35px;
     text-align: center;
     font-size: 30px;
     color: #AD74A8;
+  }
+
+  thead tr th {
+    background-color: #5bab00;
+    color: #103e55;
+  }
+
+  tbody tr td {
+    background-color: #ecff85;
+    color: red;
+  }
+
+  tfoot tr td {
+    background-color: #5bab00;
+    color: #103e55;
   }
   
   /* Estilo del elemento nav. Es la zona donde vamos a colocar el menú de nuestro sitio web */
@@ -34,15 +49,16 @@
   nav {
     background-color: #677B14;
     padding: 30px 30px 30px 30px;
-   
+    text-align: center;
   }
   
   /* Estilo del elemento lista dentro del menu */
   nav ul {
+    text-align: center;
     list-style-type: none;
     padding-bottom: 40px;
     padding-left: 15px;
-    margin: 15px;
+    margin: 20px ;
     
   }
 
@@ -63,8 +79,8 @@
 
   /* Utilizamos la pseudo clase hover para aplicar esta regla de estilo cuando se coloque el puntero del ratón encima del hiperenlace */
   nav ul li a:hover{
-      background-color: #570E51;
-      color:yellowgreen;
+      background-color: #103e55;
+      color: #5bab00;
 
   }
   
@@ -72,18 +88,18 @@
   /* Es un selector de tipo, esta regla se estilo se aplica al elemento main  */
   main {
     padding: 20px;
-    background-color:  #B6CC66;
-    color:#425200;
+    background-color:  #e0e6f6;
+    color:#AD74A8;
   }
   
   /* Estilo para la sección pie de la página web */
   /* Es un selector de tipo, esta regla se estilo se aplica al elemento footer  */
   footer {
-    background-color: #570E51;
+    background-color: #103e55;
     padding: 30px;
     text-align: center;
     font-size: 20px;
-    color:#AD74A8;
+    color: #5bab00;
   }
 
   .container{
