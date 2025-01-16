@@ -1,7 +1,71 @@
-/* Unidad a emplear: em para los tamaños de los saludos*/ 
-#saludoDoble { 
-    font-size: 2em; 
-} 
-#saludoTriple { 
-    font-size: 3em; 
-}
+ * {
+     margin: 40px, auto;
+     border: 20px, auto;
+     padding: 20px, auto;
+     content: 10px, auto;
+ }
+
+ #saludoDoble {
+     font-size: 2em;
+ }
+
+ #saludoTriple {
+     font-size: 3em;
+ }
+
+ ol li {
+     font-weight: bold;
+ }
+
+ table {
+     width: 40%;
+     margin: 40px, auto;
+     border: black;
+
+ }
+
+ .first-child {
+     color: red;
+ }
+
+ ol li:nth-child(3) {
+     color: green;
+ }
+
+ ol li:last-child {
+     color: blue;
+ }
+
+ thead tr,
+ tfoot tr {
+     background-color: brown;
+     color: white;
+     text
+ }
+
+ td:last-child {
+     font-weight: bold;
+ }
+
+ tbody tr:nth-child(odd) {
+     background-color: #00008b;
+     /* internet dice que añil es azul oscuro el codigo de azul oscuro es #00008b */
+     color: white;
+ }
+
+ tbody tr:nth-child(even) {
+     background-color: white;
+     color: #00008b;
+ }
+
+ #ElQuijote {
+     position: relative;
+ }
+
+ #ElQuijote::after {
+     content: " SEGUIR LEYENDO...";
+ }
+
+ #ElQuijote::first-letter {
+     font-size: 3em;
+ }
