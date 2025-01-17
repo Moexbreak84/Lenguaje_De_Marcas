@@ -1,3 +1,39 @@
+/*2ºtipos de letra*/
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+
+@font-face { 
+    font-family: 'Grenze Gotisch' ; 
+    src: url('../fonts/GrenzeGotisch-ExtraBold.ttf'); 
+}
+@font-face {
+    font-family: 'Agu Display';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/agudisplay/v1/iJWXBXKbbi6BeMC1_RX7qF_V5E7aciGRRWUwX4fdlqVK.woff2) format('woff2');
+  }
+  .tipoLetra {
+    font-family: "Agu Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "MORF" 0;
+  }
+  
+ #segunda {
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .destacado1{
+    font-family: "Grenze Gotisch", serif;
+    font-weight: 400;
+    font-style: normal;
+ }
+ .lacquer-regular {
+    font-family: "Lacquer", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  /* HTML */
  * {
      margin: 40px, auto;
      border: 20px, auto;
@@ -5,23 +41,17 @@
      content: 10px, auto;
  }
 
+/*1º Unidades de medida*/
  #saludoDoble {
      font-size: 2em;
  }
-
  #saludoTriple {
      font-size: 3em;
  }
 
+/*3º pseudoclases*/
  ol li {
      font-weight: bold;
- }
-
- table {
-     width: 40%;
-     margin: 40px, auto;
-     border: black;
-
  }
 
  .first-child {
@@ -36,11 +66,18 @@
      color: blue;
  }
 
+ /*4ºpseudoclases tabla*/
+ table {
+     width: 60%;
+     margin: 40px, auto;
+     border-style: groove;
+     border-color: lightgrey;
+ }
+
  thead tr,
  tfoot tr {
      background-color: brown;
      color: white;
-     text
  }
 
  td:last-child {
@@ -58,6 +95,7 @@
      color: #00008b;
  }
 
+ /* 5º pseudoelementos*/
  #ElQuijote {
      position: relative;
  }
