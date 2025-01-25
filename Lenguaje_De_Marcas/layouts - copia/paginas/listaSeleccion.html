@@ -1,67 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../estilos/estilos.css">
-    <title>Mi sitio web</title>
+    <title>Ejercicio 2: Creación de una lista de selección</title>
 </head>
 
 <body>
     <header class="color4">
-        <h1>Mi sitio web</h1>
+        <h1>Formularios HTML</h1>
     </header>
     <nav>
         <ul>
-            <li><a href="../paginas/formularioIdentificacion.html">Identificacion</a></li>
-            <li><a href="../paginas/listaSeleccion.html">Seleccion</a></li>
-            <li><a href="#">Enlace 3</a></li>
+            <li><a href="../index.html">Index</a></li>
+            <li><a href="./formularioIdentificacion.html">Identificacion</a></li>
+            <li><a href="./listaSeleccion.html">Seleccion</a></li>
+            <li><a href="./contratacionDeServicios.html">Servicios</a></li>
+            <li><a href="./registroOnline.html">Registrarse</a></li>
         </ul>
     </nav>
     <main>
-        <h1>Selecciona un Destino Turístico</h1>
+        <h1>Ejercicio 2: Creación de una lista de selección</h1>
+        <div>
+            <form action="#" method="post">
+                <label for="destinos">Destinos:</label>
+                <select id="destinos" name="destinos">
+                    <optgroup label="Europa">
+                        <option value="paris">París</option>
+                        <option value="berlin">Berlín</option>
+                        <option value="roma">Roma</option>
+                        <option value="amsterdam">Ámsterdam</option>
+                    </optgroup>
+                    <optgroup label="América">
+                        <option value="rio_de_janeiro">Río de Janeiro</option>
+                        <option value="la_habana">La Habana</option>
+                        <option value="punta_cana">Punta Cana</option>
+                        <option value="nueva_york">Nueva York</option>
+                    </optgroup>
+                    <optgroup label="África">
+                        <option value="sudafrica">Sudáfrica</option>
+                        <option value="kenia">Kenia</option>
+                        <option value="tanzania">Tanzania</option>
+                        <option value="egipto">Egipto</option>
+                    </optgroup>
+                    <optgroup label="Asia">
+                        <option value="vietnam">Vietnam</option>
+                        <option value="japon">Japón</option>
+                        <option value="china">China</option>
+                        <option value="tailandia">Tailandia</option>
+                    </optgroup>
+                    <optgroup label="Oceanía">
+                        <option value="islas_fiyi">Islas Fiyi</option>
+                        <option value="australia">Australia</option>
+                        <option value="nueva_zelanda">Nueva Zelanda</option>
+                    </optgroup>
+                </select>
 
-        <form action="#" method="post">
-            <label for="destinos">Destinos:</label>
-            <select id="destinos" name="destinos">
-                <optgroup label="Europa">
-                    <option value="paris">París</option>
-                    <option value="berlin">Berlín</option>
-                    <option value="roma">Roma</option>
-                    <option value="amsterdam">Ámsterdam</option>
-                </optgroup>
-                <optgroup label="América">
-                    <option value="rio_de_janeiro">Río de Janeiro</option>
-                    <option value="la_habana">La Habana</option>
-                    <option value="punta_cana">Punta Cana</option>
-                    <option value="nueva_york">Nueva York</option>
-                </optgroup>
-                <optgroup label="África">
-                    <option value="sudafrica">Sudáfrica</option>
-                    <option value="kenia">Kenia</option>
-                    <option value="tanzania">Tanzania</option>
-                    <option value="egipto">Egipto</option>
-                </optgroup>
-                <optgroup label="Asia">
-                    <option value="vietnam">Vietnam</option>
-                    <option value="japon">Japón</option>
-                    <option value="china">China</option>
-                    <option value="tailandia">Tailandia</option>
-                </optgroup>
-                <optgroup label="Oceanía">
-                    <option value="islas_fiyi">Islas Fiyi</option>
-                    <option value="australia">Australia</option>
-                    <option value="nueva_zelanda">Nueva Zelanda</option>
-                </optgroup>
-            </select>
-
-            <input type="submit" value="Enviar">
-        </form>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
     </main>
     <footer class="color4">
-        <p>Pie de página de mi sitio web</p>
+        <p>Moises Montes Manzano</p>
+        <p>LMSGI</p>
     </footer>
 </body>
 

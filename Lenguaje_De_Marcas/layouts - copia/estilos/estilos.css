@@ -69,7 +69,7 @@ nav ul li a {
 
 /* Utilizamos la pseudo clase hover para aplicar esta regla de estilo cuando se coloque el puntero del ratón encima del hiperenlace */
 nav ul li a:hover {
-  background-color: #ff571a;
+  background-color: #00ff73;
   color: white;
 
 }
@@ -78,7 +78,7 @@ nav ul li a:hover {
 /* Es un selector de tipo, esta regla se estilo se aplica al elemento main  */
 main {
   padding: 20px;
-  background-color: #696969;
+  background-color: #00ff4c;
   color: #000000;
 }
 

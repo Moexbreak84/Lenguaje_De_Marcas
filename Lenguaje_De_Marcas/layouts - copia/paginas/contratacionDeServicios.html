@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../estilos/estilos.css">
+    <title>Ejercicio 3: Creación de un formulario de contratación de servicios</title>
+</head>
+
+<body>
+    <header class="color4">
+        <h1>Formularios HTML</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Index</a></li>
+            <li><a href="./formularioIdentificacion.html">Identificacion</a></li>
+            <li><a href="./listaSeleccion.html">Seleccion</a></li>
+            <li><a href="./contratacionDeServicios.html">Servicios</a></li>
+            <li><a href="./registroOnline.html">Registrarse</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Ejercicio 3: Creación de un formulario de contratación de servicios</h1>
+
+        <form action="#" method="post">
+            <div class="Datos Personales">
+                <label for="nombre">Nombre:</label>
+                <label for="apellidos">Apellidos:</label>
+            </div>
+            <div action="#" method="post">
+                <input type="text" id="nombre" name="nombre" required></input>
+                <input type="text" id="Apellidos" name="Apellidos" required></input>
+            </div>
+            <div class="Datos Personales">
+                <label for="Direccion">Direccion</label>
+                <label for="Telefono">Telefono</label>
+            </div>
+            <div action="#" method="post">
+                <input type="text" id="Direccion" name="Direccion" required></input>
+                <input type="Text" id="Telefono" name="Telefono" required></input>
+            </div>
+            <div class="Datos Personales">
+                <label for="CuentaBancaria">Cuenta Bancaria</label>
+            </div>
+            <div action="#" method="post">
+                <imput type="text" id="CuentaBancaria" name="CuentaBancaria" required></imput>
+            </div>
+            <div class="Servicios">
+                <label for="Tarifa">Tarifa</label>
+                <select id="tarifa" name="tarifa" required>
+                    <option value="tarifa-joven">Tarifa joven</option>
+                    <option value="tarifa-senior">Tarifa Senior</option>
+                    <option value="tarifa-plana-superior">Tarifa Plana Superior</option>
+                </select>
+            </div>
+            <div class="Servicios">
+                <label for="fecha-de-alta">Fecha de alta</label>
+                <input type="date" id="fecha" name="fecha" required>
+            </div>
+            <div class="form-group">
+                <label for="NotificaciónSMS">Notificación por SMS</label>
+            </div>
+            <div action="#" method="post">
+                <input type="radio" id="sms_si" name="sms" value="si" required>
+                <label for="sms-si">Sí</label>
+                <input type="radio" id="sms_no" name="sms" value="no" required>
+                <label for="sms-no">No</label>
+            </div>
+            <div action="#" method="post">
+                <input type="submit" value="Enviar consulta"></input>
+                <imput type="submit" value="Restablecer"></input>
+            </div>
+        </form>
+        <footer class="color4">
+            <p>Moises Montes Manzano</p>
+            <p>LMSGI</p>
+        </footer>
+</body>
+
+</html>
