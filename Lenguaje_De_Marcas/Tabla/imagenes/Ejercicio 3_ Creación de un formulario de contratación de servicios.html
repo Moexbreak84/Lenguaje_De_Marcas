@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<html lang="es">
-
-<head>
-    <meta charset="UTF-8">
+<!-- saved from url=(0097)http://127.0.0.1:5500/Lenguaje_De_Marcas/layouts%20-%20copia/paginas/contratacionDeServicios.html -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../estilos/estilos.css">
+    
     <title>Ejercicio 3: Creación de un formulario de contratación de servicios</title>
-</head>
+<link rel="stylesheet" type="text/css" href="./Ejercicio 3_ Creación de un formulario de contratación de servicios_files/estilos.css"></head>
 
 <body>
     <header class="color5">
@@ -15,11 +14,11 @@
     </header>
     <nav>
         <ul>
-            <li><a href="../index.html">Index</a></li>
-            <li><a href="./formularioIdentificacion.html">Identificacion</a></li>
-            <li><a href="./listaSeleccion.html">Seleccion</a></li>
-            <li><a href="./contratacionDeServicios.html">Servicios</a></li>
-            <li><a href="./registroOnline.html">Registrarse</a></li>
+            <li><a href="http://127.0.0.1:5500/Lenguaje_De_Marcas/layouts%20-%20copia/index.html">Index</a></li>
+            <li><a href="http://127.0.0.1:5500/Lenguaje_De_Marcas/layouts%20-%20copia/paginas/formularioIdentificacion.html">Identificacion</a></li>
+            <li><a href="http://127.0.0.1:5500/Lenguaje_De_Marcas/layouts%20-%20copia/paginas/listaSeleccion.html">Seleccion</a></li>
+            <li><a href="http://127.0.0.1:5500/Lenguaje_De_Marcas/layouts%20-%20copia/paginas/contratacionDeServicios.html">Servicios</a></li>
+            <li><a href="http://127.0.0.1:5500/Lenguaje_De_Marcas/layouts%20-%20copia/paginas/registroOnline.html">Registrarse</a></li>
         </ul>
     </nav>
     <main>
@@ -88,6 +87,44 @@
             <p>Moises Montes Manzano</p>
             <p>LMSGI</p>
         </footer>
-</body>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
 
-</html>
+
+</main></body></html>

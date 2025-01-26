@@ -74,6 +74,58 @@ nav ul li a:hover {
 
 }
 
+/*configuracion del marco o encapsulado de la seleccion en su propio HTML*/
+.Seleccion {
+  background-color: rosybrown;
+  border: 2px solid #4CAF50;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+
+
+/*configuracion del marco o encapsulado del HTML contratacion de Servicios parte Datos personales*/
+.DatosPersonales {
+  background-color: rosybrown;
+  border: 2px solid #4CAF50;
+  padding: 20;
+  margin: 20px, 0;
+  border-radius: 5px;
+}
+
+/*configuracion del marco o encapsulado del HTML contratacion de Servicios parte Servicios*/
+.Servicios {
+  background-color: rosybrown;
+  border: 2px solid #4CAF50;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+
+
+/*configuracion del marco o encapsulado de la seleccion en su propio HTML*/
+.registro {
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: 2px solid #4CAF50;
+  padding: 20px;
+  margin: 20px, 20px, 20px, 20px;
+  border-radius: 5px;
+  width: 200px;
+}
+
+/*configuracion boton aceptar*/
+#boton-aceptar {
+  width: 100%;
+  padding: 12px 3px;
+  background-color: #ffd904;
+  margin-top: 30px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
 /* Estilo para la sección principal de contenido de la página web */
 /* Es un selector de tipo, esta regla se estilo se aplica al elemento main  */
 main {
@@ -91,16 +143,6 @@ footer {
   color: white;
 }
 
-/* E2: lista seleccion */
-
-.Seleccion {
-  background-color: rosybrown;
-  border: 2px solid #4CAF50;
-  padding: 20px;
-  margin: 20px 0;
-  border-radius: 5px;
-}
-
 /* E3: Contratacion de servicios*/
 
 legend {
@@ -109,15 +151,11 @@ legend {
 }
 
 .datos_personales,
-.servicios {
-  min-width: 20%;
-  margin-bottom: 0.5em;
-  background-color: rosybrown;
-}
-
+.servicios,
 .Botones {
   min-width: 20%;
   margin-bottom: 0.5em;
+  background-color: rosybrown;
 }
 
 .I_mombre_apellidos,
@@ -144,37 +182,4 @@ div.L_nombre_apellidos>label:last-child {
 
 div.tarifa>select:last-child {
   margin-left: 4.8em;
-}
-
-/*E4: Registro como el de amazon*/
-.registro {
-  width: 350px;
-  background-color: #ffffff;
-  border: 1px solid #aaaaaa;
-  padding: 20px;
-  margin: auto;
-  border-radius: 3px;
-  box-shadow: 0px, 4px, 6px, rgba(0, 0, 0, 0.color4);
-  margin-top: 5px;
-  font-family: 'Times New Roman', Times, serif;
-}
-
-.boton-aceptar {
-  width: 100%;
-  padding: 12px 3px 12px 2px;
-  background-color: #ffd904;
-  margin-top: 18px;
-  text-align: center;
-}
-
-.entrada {
-  margin: opx;
-  width: 97%;
-  padding: 7px, 3px, 7px, 3px;
-  margin-bottom: 1em;
-}
-
-input:focus {
-  border-color: #ca5f07;
-  outline: none;
 }
